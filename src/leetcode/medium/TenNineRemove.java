@@ -21,7 +21,8 @@ public class TenNineRemove {
         return ans;
 
     }
-//    获取长度的方法
+
+    //    获取长度的方法
     public int getLength(ListNode head) {
         int length = 0;
         while (head != null) {
@@ -31,7 +32,23 @@ public class TenNineRemove {
         return length;
     }
 
-
+    public ListNode removeNthFromEnd2(ListNode head, int n) {
+//         创建哑节点和双指针
+        ListNode dum = new ListNode(0, head);
+        ListNode first = head;
+        ListNode second = dum;
+//        快指针先走到相距为n的位置，慢指针再走
+        for (int i = 0; i < n; i++) {
+            first=first.next;
+        }
+        while (first!=null){
+            first=first.next;
+            second=second.next;
+        }
+        second.next=second.next.next;
+        ListNode next = dum.next;
+        return next;
+    }
 
 }
 //19. 删除链表的倒数第 N 个结点
