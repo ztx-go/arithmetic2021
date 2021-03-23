@@ -13,7 +13,7 @@ public class TwoOneMerge {
             return l2;
         } else if (l2 == null) {
             return l1;
-        } else if (l1.data < l2.data) {
+        } else if (l1.val < l2.val) {
 //            将较小的节点作为已经有序的节点，他的下一个有序节点从 剩余的节点中选出
             l1.next = mergeTwoLists(l1.next, l2);
             return l1;

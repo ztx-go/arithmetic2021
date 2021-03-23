@@ -10,8 +10,8 @@ public class TwoAddNumber {
 //        如果l1或者l2不为空的时候，就进行循环累加
         while (l1 != null || l2 != null) {
 //            获取当前l1和l2的值，并加上进位变量
-            int n1 = l1 != null ? l1.data : 0;
-            int n2 = l2 != null ? l2.data : 0;
+            int n1 = l1 != null ? l1.val : 0;
+            int n2 = l2 != null ? l2.val : 0;
             int sum = n1 + n2 + carry;
 //            头节点为空的时候，创建一个新的节点，并且tail尾指针指向头节点
             if (head == null) {
