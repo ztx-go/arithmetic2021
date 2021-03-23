@@ -10,7 +10,7 @@ public class TwoThreeSevenDelete {
 //    方法：把下一个的值复制到要删除的节点上，然后再去删除下一个节点
     public void deleteNode(ListNode node) {
         if (node.next != null) {
-            node.data = node.next.data;
+            node.val = node.next.val;
         }
         node.next = node.next.next;
     }

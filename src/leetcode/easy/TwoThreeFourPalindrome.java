@@ -13,7 +13,7 @@ public class TwoThreeFourPalindrome {
         }
         List<Integer> list = new ArrayList<>();
         while (temp != null) {
-            list.add(temp.data);
+            list.add(temp.val);
             temp = temp.next;
         }
         int i = 0, j = list.size() - 1;
@@ -42,7 +42,7 @@ public class TwoThreeFourPalindrome {
         ListNode p2 = secondHalfStart;
         boolean result = true;
         while (result && p2 != null) {
-            if (p1.data != p2.data) {
+            if (p1.val != p2.val) {
                 result = false;
             }
             p1 = p1.next;
