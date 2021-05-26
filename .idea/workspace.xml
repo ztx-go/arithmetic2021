@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c3d741-04fd-4885-b0c8-51609c6fee26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/FiveSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/OneSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/ThreeLongest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/TwoAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/FiveSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/OneSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/ThreeLongest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/TwoAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,16 +178,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ztx\idea\own\arithmetic\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FiveSubString">
-    <configuration name="FiveSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.FiveSubString" />
+  <component name="RunManager" selected="Application.Test15">
+    <configuration name="Test11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test11" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -197,21 +199,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FourNineSixNext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.FourNineSixNext" />
-      <module name="arithmetic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OneSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.OneSum" />
+    <configuration name="Test15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test15" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -223,8 +212,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeLongest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.ThreeLongest" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test2" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -236,8 +225,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.TwoAdd" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test3" />
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.top.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test5" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -262,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FiveSubString" />
-        <item itemvalue="Application.ThreeLongest" />
-        <item itemvalue="Application.TwoAdd" />
-        <item itemvalue="Application.OneSum" />
-        <item itemvalue="Application.FourNineSixNext" />
+        <item itemvalue="Application.Test15" />
+        <item itemvalue="Application.Test11" />
+        <item itemvalue="Application.Test5" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +301,7 @@
       <workItem from="1616315703013" duration="4405000" />
       <workItem from="1616511552732" duration="10239000" />
       <workItem from="1617020961764" duration="7120000" />
-      <workItem from="1621862215571" duration="12844000" />
+      <workItem from="1621862215571" duration="17107000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1610033303611</created>
@@ -413,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617032315517</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="5.25热题100">
+      <created>1621875711720</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1621875711720</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -497,13 +506,14 @@
     <MESSAGE value="3.25算法" />
     <MESSAGE value="3.26算法" />
     <MESSAGE value="3.29算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.29算法" />
+    <MESSAGE value="5.25热题100" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.25热题100" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/top/TwoAdd.java</url>
+          <url>file://$PROJECT_DIR$/src/leetcode/top/Test2.java</url>
           <line>66</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>

@@ -1,6 +1,6 @@
 package leetcode.top;
 
-public class FiveSubString {
+public class Test5 {
     //5. 最长回文子串
     // 输入：s = "babad"
     // 输出："bab"
@@ -90,7 +90,7 @@ public class FiveSubString {
     public static void main(String[] args) {
 
         String s = "bbb";
-        FiveSubString f = new FiveSubString();
+        Test5 f = new Test5();
         String result = f.longestPalindrome(s);
         System.out.println(result);
 

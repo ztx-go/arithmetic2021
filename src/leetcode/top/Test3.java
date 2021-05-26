@@ -3,7 +3,7 @@ package leetcode.top;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ThreeLongest {
+public class Test3 {
 
 //    3. 无重复字符的最长子串
 //     给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
@@ -59,7 +59,7 @@ public class ThreeLongest {
 
     public static void main(String[] args) {
         String s = " ";
-        ThreeLongest t = new ThreeLongest();
+        Test3 t = new Test3();
         int i = t.lengthOfLongestSubstring(s);
         System.out.println(i);
     }

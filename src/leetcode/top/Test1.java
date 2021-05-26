@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class OneSum {
+public class Test1 {
 
     public int[] twoSum(int[] nums, int target) {
         // 1. 两数之和
@@ -40,11 +40,11 @@ public class OneSum {
     public static void main(String[] args) {
         int[] nums = new int[]{3,2,4};
         int target = 6;
-        OneSum oneSum = new OneSum();
-        int[] ints = oneSum.twoSum(nums, target);
+        Test1 test1 = new Test1();
+        int[] ints = test1.twoSum(nums, target);
         System.out.println(Arrays.toString(ints));
 
-        int[] ints2 = oneSum.twoSum2(nums, target);
+        int[] ints2 = test1.twoSum2(nums, target);
         System.out.println(Arrays.toString(ints));
     }
 
