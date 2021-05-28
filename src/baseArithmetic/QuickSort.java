@@ -6,8 +6,12 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] array = new int[]{4, 3, 7, 2, 9, 5, 1};
 //        quickSort(array, 0, array.length - 1);
-        Arrays.sort(array);
+//         Arrays.sort(array);
+//         System.out.println(Arrays.toString(array));
+        QuickSort q = new QuickSort();
+        q.quick2(array, 0, array.length - 1);
         System.out.println(Arrays.toString(array));
+
     }
 
     private static void quickSort(int[] array, int i, int j) {
@@ -43,4 +47,31 @@ public class QuickSort {
 //        返回这个位置，在让左右两边的数组递归排序
         return i;
     }
+
+    public void quick2(int[] arr, int begin, int end) {
+        if (begin > end) {
+            return;
+        }
+        int partion = partion(arr, begin, end);
+        quick2(arr, begin, partion - 1);
+        quick2(arr, partion + 1, end);
+    }
+
+    private int partion(int[] arr, int begin, int end) {
+        int temp = arr[begin];
+        while (begin < end) {
+            while (begin < end && arr[end] > temp) {
+                end--;
+            }
+            arr[begin] = arr[end];
+            while (begin < end && arr[begin] <= temp) {
+                begin++;
+            }
+            arr[end] = arr[begin];
+        }
+        arr[begin] = temp;
+        System.out.println(Arrays.toString(arr));
+        return begin;
+    }
+
 }
