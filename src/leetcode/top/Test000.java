@@ -1,6 +1,12 @@
 package leetcode.top;
 
 import entity.ListNode;
+import entity.Person;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class Test000 {
     public ListNode sortList(ListNode head) {
@@ -49,5 +55,21 @@ public class Test000 {
             temp.next = temp2;
         }
         return dummyHead.next;
+    }
+
+    public static void main(String[] args) {
+        Set<Person> list = new HashSet<>();
+        Person p1 = new Person("dd", 21);
+        Person p2 = new Person("dfs", 22);
+        Person p3 = new Person("dfa", 23);
+
+
+        list.add(p1);
+        list.add(p2);
+        list.add(p3);
+        System.out.println("====" + list.size());
+        p2.setAge(25);
+        list.remove(p2);
+        System.out.println("====" + list.size());
     }
 }
