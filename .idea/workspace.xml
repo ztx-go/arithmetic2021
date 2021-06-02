@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34c3d741-04fd-4885-b0c8-51609c6fee26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/entity/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test198.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test62.java" afterDir="false" />
+    <list default="true" id="34c3d741-04fd-4885-b0c8-51609c6fee26" name="Default Changelist" comment="6.1热题100">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/all/Test94.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/all/Test95.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test155.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test394.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test739.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test94.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test96.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,9 +193,9 @@
       <recent name="D:\ztx\idea\own\arithmetic\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test62">
-    <configuration name="Test000" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test000" />
+  <component name="RunManager" selected="Application.Test739">
+    <configuration name="Test394" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test394" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -203,8 +207,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test121" />
+    <configuration name="Test70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test70" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -216,8 +220,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test198" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test198" />
+    <configuration name="Test739" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test739" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -229,8 +233,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test53" />
+    <configuration name="Test94" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test94" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -242,12 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test62" />
+    <configuration name="Test95" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.all.Test95" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.top.*" />
+          <option name="PATTERN" value="leetcode.all.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,26 +259,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test62" />
-        <item itemvalue="Application.Test53" />
-        <item itemvalue="Application.Test121" />
-        <item itemvalue="Application.Test198" />
-        <item itemvalue="Application.Test000" />
+        <item itemvalue="Application.Test739" />
+        <item itemvalue="Application.Test394" />
+        <item itemvalue="Application.Test94" />
+        <item itemvalue="Application.Test95" />
+        <item itemvalue="Application.Test70" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +314,8 @@
       <workItem from="1622255436799" duration="417000" />
       <workItem from="1622255994563" duration="183000" />
       <workItem from="1622256226501" duration="19044000" />
-      <workItem from="1622430198578" duration="9580000" />
+      <workItem from="1622430198578" duration="21305000" />
+      <workItem from="1622627318392" duration="4765000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1610033303611</created>
@@ -454,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622304169567</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="6.1热题100">
+      <created>1622479579156</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1622479579156</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -542,7 +552,8 @@
     <MESSAGE value="5.27热题100" />
     <MESSAGE value="5.29热题100" />
     <MESSAGE value="5.30热题100" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.30热题100" />
+    <MESSAGE value="6.1热题100" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.1热题100" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
