@@ -19,7 +19,7 @@ public class QuickSort {
             return;
         }
         int position = partition(array, i, j);
-        quickSort(array, 0, position - 1);
+        quickSort(array, i, position - 1);
         quickSort(array, position + 1, j);
     }
 
