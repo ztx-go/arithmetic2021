@@ -18,7 +18,7 @@ public class Test461 {
             ret = ret + s & 1;// s和1进行与运算，都为1的时候返回1，其中一个为0则返回0
             s = s >> 1;//右移一位，可以去掉最低位的数字
         }
-        return 1;
+        return ret;
     }
 
     public static void main(String[] args) {

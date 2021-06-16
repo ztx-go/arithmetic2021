@@ -2,26 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34c3d741-04fd-4885-b0c8-51609c6fee26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test169.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test226.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test287.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test338.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test448.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test461.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test538.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test543.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test617.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test75.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test78.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test98.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/all/Test704.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test283.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/top/Test31.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arithmetic/baseArithmetic/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arithmetic/baseArithmetic/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baseArithmetic/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baseArithmetic/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test148.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test148.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test160.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test160.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test206.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test234.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test234.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test287.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test287.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test338.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test338.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test448.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test448.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test461.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test461.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test494.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/all/Test494.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test538.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test538.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test56.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test739.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test739.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test75.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test75.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test78.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/top/Test96.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/top/Test96.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +194,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617290281908" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rocketmqDemo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -202,9 +210,22 @@
       <recent name="D:\ztx\idea\own\arithmetic\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test39">
-    <configuration name="Test287" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test287" />
+  <component name="RunManager" selected="Application.Test31">
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baseArithmetic.InsertSort" />
+      <module name="arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baseArithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test15" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -216,8 +237,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test34" />
+    <configuration name="Test17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test17" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -229,8 +250,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test39" />
+    <configuration name="Test31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test31" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -242,8 +263,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test75" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test5" />
       <module name="arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -255,37 +276,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test78" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.top.Test78" />
-      <module name="arithmetic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.top.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test39" />
-        <item itemvalue="Application.Test78" />
-        <item itemvalue="Application.Test34" />
-        <item itemvalue="Application.Test287" />
-        <item itemvalue="Application.Test75" />
+        <item itemvalue="Application.Test31" />
+        <item itemvalue="Application.Test17" />
+        <item itemvalue="Application.Test15" />
+        <item itemvalue="Application.Test5" />
+        <item itemvalue="Application.InsertSort" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +334,8 @@
       <workItem from="1622255994563" duration="183000" />
       <workItem from="1622256226501" duration="19044000" />
       <workItem from="1622430198578" duration="21305000" />
-      <workItem from="1622627318392" duration="36179000" />
+      <workItem from="1622627318392" duration="85082000" />
+      <workItem from="1623330405691" duration="41288000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1610033303611</created>
@@ -480,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622652552527</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="6.4热题100">
+      <created>1622777546988</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1622777546988</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -570,18 +588,10 @@
     <MESSAGE value="5.30热题100" />
     <MESSAGE value="6.1热题100" />
     <MESSAGE value="6.3热题100" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.3热题100" />
+    <MESSAGE value="6.4热题100" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.4热题100" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/top/Test2.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="entity.TreeNode" memberName="left" />
@@ -591,6 +601,11 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/arithmetic2021$Test000.ic" NAME="Test000 Coverage Results" MODIFIED="1623688350121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.top.*</FILTER>
+    </SUITE>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">

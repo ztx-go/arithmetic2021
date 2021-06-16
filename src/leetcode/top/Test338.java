@@ -8,7 +8,7 @@ public class Test338 {
 
     //利用 Brian Kernighan 算法，可以在一定程度上进一步提升计算速度。
     //  Brian Kernighan 算法的原理是：对于任意整数 xx，令 x=x&(x-1)，
-    // 该运算将x 的二进制表示的最后一个1变成0。因此，对x 重复该操作，直到x变成0，则操作次数即为x 的「一比特数」。
+    // 该运算将x 的二进制表示的 最后一个1(可能是个位，也可能是十位。。。) 变成0。因此，对x 重复该操作，直到x变成0，则操作次数即为x 的「一比特数」。
     public int[] countBits(int n) {
         int[] bits = new int[n + 1];
         for (int i = 0; i < n + 1; i++) {

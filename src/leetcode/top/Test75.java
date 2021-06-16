@@ -8,37 +8,29 @@ public class Test75 {
     //给定一个包含红色、白色和蓝色，一共 n 个元素的数组，原地对它们进行排序，使得相同颜色的元素相邻，并按照红色、白色、蓝色顺序排列。
     // 此题中，我们使用整数 0,1 和 2 分别表示红色、白色和蓝色。
 
-
-
-    //方法一：快排
+    //方法一：两次for循环是最简单的，最容易理解
     public void sortColors(int[] nums) {
-        quick2(nums, 0, nums.length - 1);
-    }
 
-    public void quick2(int[] arr, int begin, int end) {
-        if (begin > end) {
-            return;
-        }
-        int partion = partion(arr, begin, end);
-        quick2(arr, begin, partion - 1);
-        quick2(arr, partion + 1, end);
-    }
-
-    private int partion(int[] arr, int begin, int end) {
-        int temp = arr[begin];
-        while (begin < end) {
-            while (begin < end && arr[end] > temp) {
-                end--;
+        int n = nums.length;
+        int ptr = 0;
+        //把所有的0移到最前面，同时记录最后一个0后面的元素索引
+        for (int i = 0; i < n; ++i) {
+            if (nums[i] == 0) {
+                int temp = nums[i];
+                nums[i] = nums[ptr];
+                nums[ptr] = temp;
+                ++ptr;
             }
-            arr[begin] = arr[end];
-            while (begin < end && arr[begin] <= temp) {
-                begin++;
-            }
-            arr[end] = arr[begin];
         }
-        arr[begin] = temp;
-        System.out.println(Arrays.toString(arr));
-        return begin;
+        //从刚才记录的索引开始，将剩余的1移到0后面
+        for (int i = ptr; i < n; ++i) {
+            if (nums[i] == 1) {
+                int temp = nums[i];
+                nums[i] = nums[ptr];
+                nums[ptr] = temp;
+                ++ptr;
+            }
+        }
     }
 
     public static void main(String[] args) {

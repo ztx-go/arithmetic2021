@@ -16,7 +16,7 @@ public class Test56 {
         if (intervals.length == 0) {
             return new int[0][2];
         }
-        //安装左边的端点进行排序
+        //按照左边的端点进行排序
         Arrays.sort(intervals, new Comparator<int[]>() {
             public int compare(int[] interval1, int[] interval2) {
                 return interval1[0] - interval2[0];

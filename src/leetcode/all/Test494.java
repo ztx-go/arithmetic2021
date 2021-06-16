@@ -1,4 +1,4 @@
-package leetcode.top;
+package leetcode.all;
 
 public class Test494 {
 //    给你一个整数数组 nums 和一个整数 target 。

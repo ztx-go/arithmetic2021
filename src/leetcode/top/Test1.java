@@ -14,6 +14,7 @@ public class Test1 {
         // 你可以按任意顺序返回答案。
 
 
+        //暴力枚举
         for (int i = 0; i < nums.length - 1; i++) {
             int other = target - nums[i];
             for (int j = i + 1; j < nums.length; j++) {
@@ -25,6 +26,7 @@ public class Test1 {
         return null;
     }
 
+    //使用hash表（题目说了元素不重复，可以利用这点）
     public int[] twoSum2(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {

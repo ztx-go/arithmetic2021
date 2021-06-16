@@ -38,7 +38,7 @@ public class Test5 {
                 if (charArray[i] != charArray[j]) {
                     dp[i][j] = false;
                 } else {
-                    if (j - i < 3) {
+                    if (j - i < 3) {//if（L<=2）这种情况下是两个字母相同，直接等于true就行，不太能满足转移方程
                         dp[i][j] = true;
                     } else {
                         dp[i][j] = dp[i + 1][j - 1];
@@ -67,6 +67,7 @@ public class Test5 {
 
         for (int i = 0; i < len - 1; i++) {
             for (int j = i + 1; j < len; j++) {
+                //j-i+1要大于之前的最大长度时才能
                 if (j - i + 1 > maxLen && validPalind(charArray, i, j)) {
                     maxLen = j - i + 1;
                     begin = i;
@@ -89,7 +90,7 @@ public class Test5 {
 
     public static void main(String[] args) {
 
-        String s = "bbb";
+        String s = "cbbd";
         Test5 f = new Test5();
         String result = f.longestPalindrome(s);
         System.out.println(result);

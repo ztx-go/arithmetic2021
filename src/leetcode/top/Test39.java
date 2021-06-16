@@ -32,7 +32,7 @@ public class Test39 {
         }
         for (int i = start; i < candidates.length; i++) {//如果i=0开始，就会有重复的，i=start 就不会有重复的结果
             path.add(candidates[i]);
-            backtrace(result, path, candidates, target,i);
+            backtrace(result, path, candidates, target,i);//不重复是指结果集不重复，这里传i，可以重复取值
             path.remove(path.size() - 1);
         }
     }
@@ -45,8 +45,10 @@ public class Test39 {
         //   [2,2,3]
         // ]
         Test39 t = new Test39();
-        int[] arr = {2, 3, 6, 7};
-        int target = 7;
+        // int[] arr = {2, 3, 6, 7};
+        // int target = 7;
+        int[] arr = {2, 3, 8};
+        int target = 8;
         List<List<Integer>> lists = t.combinationSum(arr, target);
         System.out.println(lists);
 

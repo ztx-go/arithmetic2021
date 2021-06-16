@@ -1,6 +1,8 @@
 package leetcode.top;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class Test3 {
@@ -56,6 +58,22 @@ public class Test3 {
         }
         return ans;
     }
+
+    //网友的滑动窗口解法（之后再看吧）
+    public int lengthOfLongestSubstring3(String s) {
+        int n = s.length(), ans = 0;
+        Map<Character, Integer> map = new HashMap<>();
+        for (int end = 0, start = 0; end < n; end++) {
+            char alpha = s.charAt(end);
+            if (map.containsKey(alpha)) {
+                start = Math.max(map.get(alpha), start);
+            }
+            ans = Math.max(ans, end - start + 1);//获取最大长度
+            map.put(s.charAt(end), end + 1);//存放入map，key和位置+1
+        }
+        return ans;
+    }
+
 
     public static void main(String[] args) {
         String s = " ";

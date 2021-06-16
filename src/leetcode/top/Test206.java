@@ -10,11 +10,12 @@ public class Test206 {
 
     //迭代法：
     public ListNode reverseList2(ListNode head) {
-        if (head == null || head.next == null) {
+        if (head == null || head.next == null) {//边界条件
             return head;
         }
-        ListNode pre = head;
-        ListNode after = head.next;
+        ListNode pre = head;//第一个节点
+        ListNode after = head.next;//第二个节点
+        pre.next = null;//需要把第一个节点的next指向null，没有这一步的话会出现一个循环指针的问题
         while (after != null) {
             ListNode temp = after.next;//取出下一个，临时节点
             after.next = pre;//反转

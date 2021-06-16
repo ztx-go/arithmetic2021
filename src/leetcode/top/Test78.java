@@ -14,7 +14,7 @@ public class Test78 {
     }
 
     private void dp(List<List<Integer>> result, List<Integer> path, int[] nums, int i) {
-        if (i == nums.length) {//
+        if (i == nums.length) {//这里的i用来记录递归的次数？
             result.add(new ArrayList<>(path));// 记录答案
             return;
         }
@@ -23,7 +23,7 @@ public class Test78 {
         dp(result, path, nums, i + 1);
         path.remove(path.size() - 1);
         // 考虑不选择当前位置  （这道题比之前的回溯多了这一步）
-        // dp(result, path, nums, i + 1);
+        dp(result, path, nums, i + 1);
     }
 
     public static void main(String[] args) {
