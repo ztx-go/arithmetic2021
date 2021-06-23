@@ -25,6 +25,20 @@ public class Test206 {
         return pre;
     }
 
+    //答案给出的迭代法（和234中的反转是一样的）和，和上面不一样的地方就是 pre用的null，其他都一样
+    public ListNode reverseList3(ListNode head) {
+            ListNode prev = null;
+            ListNode curr = head;
+            while (curr != null) {
+                ListNode next = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+            }
+            return prev;
+        }
+
+
     //递归法：
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {

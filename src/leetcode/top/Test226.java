@@ -8,10 +8,10 @@ public class Test226 {
         if (root == null) {//递归终止条件，为空的时候返回
             return root;
         }
-        TreeNode leftNode = invertTree(root.right);//递归，传入root.right返回root.right节点
-        TreeNode rightNode = invertTree(root.left);//递归，传入root.left返回root.left
-        root.left = leftNode;//进行翻转
-        root.right = rightNode;
+        TreeNode right = invertTree(root.right);//递归，传入root.right返回root.right节点
+        TreeNode left = invertTree(root.left);//递归，传入root.left返回root.left
+        root.left = right;//进行翻转
+        root.right = left;
         return root;
     }
 

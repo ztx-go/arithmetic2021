@@ -21,5 +21,7 @@ public class Test000 {
         List<Integer> list = Arrays.asList(1, 3, 2, 8, 11, 4);
         ThreadLocal t=new ThreadLocal();
         ConcurrentHashMap<String,String> mpa=new ConcurrentHashMap<>();
+        mpa.put("s","s");
+        ThreadLocal<String> stringThreadLocal=new ThreadLocal<>();
     }
 }

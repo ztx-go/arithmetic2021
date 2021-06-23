@@ -6,21 +6,18 @@ public class Test160 {
     //给你两个单链表的头节点headA 和 headB ，请你找出并返回两个单链表相交的起始节点。如果两个链表没有交点，返回 null 。
     // 图示两个链表在节点 c1 开始相交：
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        ListNode p1 = headA;
-        ListNode p2 = headB;
-        while (p1 != p2) {
-            if (p1.next != null) {
-                p1 = p1.next;
-            } else {
-                p1 = headB;//将p1重新定位到headB上
-            }
-            if (p2.next != null) {
-                p2 = p2.next;
-            } else {
-                p2= headA;//将p2重新定位到headA上
-            }
+        //tempA和tempB我们可以认为是A,B两个指针
+        ListNode tempA = headA;
+        ListNode tempB = headB;
+        while (tempA != tempB) {
+            //如果指针tempA不为空，tempA就往后移一步。
+            //如果指针tempA为空，就让指针tempA指向headB（注意这里是headB不是tempB）
+            tempA = tempA == null ? headB : tempA.next;
+            //指针tempB同上
+            tempB = tempB == null ? headA : tempB.next;
         }
-        return p1;
+        //tempA要么是空，要么是两链表的交点
+        return tempA;
     }
 
     public static void main(String[] args) {
